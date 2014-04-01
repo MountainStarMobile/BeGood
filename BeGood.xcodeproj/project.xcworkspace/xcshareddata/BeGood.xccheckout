@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6F9E5736-A1F4-4188-B05B-B2B5F875512B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BeGood</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>778A32A9-EAC2-4830-A3BD-4CE60C7D8FE0</key>
+		<string>https://github.com/sinss/BeGood.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BeGood.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>778A32A9-EAC2-4830-A3BD-4CE60C7D8FE0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sinss/BeGood.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>778A32A9-EAC2-4830-A3BD-4CE60C7D8FE0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>778A32A9-EAC2-4830-A3BD-4CE60C7D8FE0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BeGood</string>
+		</dict>
+	</array>
+</dict>
+</plist>
