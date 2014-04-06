@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6F9E5736-A1F4-4188-B05B-B2B5F875512B</string>
+	<string>14F4D1ED-6A98-49A4-999B-8BE77346A897</string>
 	<key>IDESourceControlProjectName</key>
 	<string>BeGood</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>778A32A9-EAC2-4830-A3BD-4CE60C7D8FE0</key>
-		<string>https://github.com/sinss/BeGood.git</string>
+		<key>AEDE1CEC-EDFD-49D7-AB9F-B417495EE656</key>
+		<string>https://github.com/MountainStarMobile/BeGood.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>BeGood.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>778A32A9-EAC2-4830-A3BD-4CE60C7D8FE0</key>
+		<key>AEDE1CEC-EDFD-49D7-AB9F-B417495EE656</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/sinss/BeGood.git</string>
+	<string>https://github.com/MountainStarMobile/BeGood.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>778A32A9-EAC2-4830-A3BD-4CE60C7D8FE0</string>
+	<string>AEDE1CEC-EDFD-49D7-AB9F-B417495EE656</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>778A32A9-EAC2-4830-A3BD-4CE60C7D8FE0</string>
+			<string>AEDE1CEC-EDFD-49D7-AB9F-B417495EE656</string>
 			<key>IDESourceControlWCCName</key>
-			<string>BeGood</string>
+			<string>iOS-BeGood</string>
 		</dict>
 	</array>
 </dict>

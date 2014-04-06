@@ -15,5 +15,21 @@
     #import <Foundation/Foundation.h>
 #endif
 
+#define applicationID @"766263296"
+
+#define system_version [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+
+#define kCompanyName @"XXX Inc."
+
+#define kSupportEamil @""
+#define kReportEmail @""
+
+#define systemInformationMessage @""
+#define companyInformationMessage @""
+#define serviceInformationMessage @""
+
 #define StoryKey @"story.key"
 #define StoryFinishEvent @"GetStoryFinish.event"
+
+#define systemFont @"HelveticaNeue-Light"
+#define systemFontBold @"HelveticaNeue-Bold"

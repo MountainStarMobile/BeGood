@@ -9,6 +9,7 @@
 #import "StoryTableViewController.h"
 #import "StoryCell.h"
 #import "Story.h"
+#import "AboutUsViewController.h"
 
 @interface StoryTableViewController ()
 
@@ -29,7 +30,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.title = [NSString stringWithFormat:@"Story"];
+    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receivedStoryData:) name:StoryFinishEvent object:nil];
+    
+    UIButton *infoBtn = [UIButton buttonWithType:UIButtonTypeInfoLight];
+    [infoBtn addTarget:self action:@selector(infoItemPress:) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *infoItem = [[UIBarButtonItem alloc] initWithCustomView:infoBtn];
+    self.navigationItem.leftBarButtonItems = @[infoItem];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -70,7 +80,7 @@
     StoryCell *cell = [tableView dequeueReusableCellWithIdentifier:@"storyCellIdeitnfier" forIndexPath:indexPath];
     cell.selectionStyle = UITableViewCellSelectionStyleBlue;
     Story *item = _stories[indexPath.row];
-    NSString *imgUrl = item.imageUrls[0];
+    //NSString *imgUrl = item.imageUrls[0];
     
     cell.backgroundColor = [UIColor clearColor];
     [cell.titleLabel setText:item.title];
@@ -137,6 +147,13 @@
     self.stories = [noti.object valueForKey:StoryKey];
     
     [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationAutomatic];
+}
+
+- (void)infoItemPress:(id)sender
+{
+    AboutUsViewController *aboutusView = [[AboutUsViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    
+    [self.navigationController pushViewController:aboutusView animated:YES];
 }
 
 @end

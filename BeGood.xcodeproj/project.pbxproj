@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FFEA80C18F1BB630044503C /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFEA80818F1BB630044503C /* AboutUsViewController.m */; };
+		0FFEA80E18F1BB630044503C /* StoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFEA80B18F1BB630044503C /* StoryTableViewController.m */; };
+		0FFEA81218F1BBC70044503C /* PrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFEA81018F1BBC70044503C /* PrivacyViewController.m */; };
+		0FFEA81318F1BBC70044503C /* PrivacyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEA81118F1BBC70044503C /* PrivacyViewController.xib */; };
+		0FFEA81818F1BC310044503C /* copyrightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFEA81618F1BC310044503C /* copyrightView.m */; };
+		0FFEA81918F1BC310044503C /* copyrightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEA81718F1BC310044503C /* copyrightView.xib */; };
 		7CD5CA5218EAB8750099058F /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD5CA5118EAB8750099058F /* Story.m */; };
 		7CD5CA5618EABEC30099058F /* crl_24bits.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 7CD5CA5518EABEC30099058F /* crl_24bits.bmp */; };
 		7CF694B318E951E400AE9F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF694B218E951E400AE9F18 /* Foundation.framework */; };
@@ -25,7 +31,6 @@
 		7CF694DE18E951E400AE9F18 /* BeGoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF694DD18E951E400AE9F18 /* BeGoodTests.m */; };
 		7CF694E818E9531000AE9F18 /* StoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF694E718E9531000AE9F18 /* StoryCell.xib */; };
 		7CF694EB18E9535800AE9F18 /* StoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF694EA18E9535800AE9F18 /* StoryCell.m */; };
-		7CF694EE18E954B300AE9F18 /* StoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF694ED18E954B300AE9F18 /* StoryTableViewController.m */; };
 		7CF694F118E9570700AE9F18 /* app_config.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF694F018E9570700AE9F18 /* app_config.m */; };
 		7CF694F318E9590000AE9F18 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF694F218E9590000AE9F18 /* Parse.framework */; };
 		7CF694F518E95AD500AE9F18 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF694F418E95AD500AE9F18 /* AdSupport.framework */; };
@@ -53,6 +58,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FFEA80718F1BB630044503C /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		0FFEA80818F1BB630044503C /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		0FFEA80A18F1BB630044503C /* StoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryTableViewController.h; sourceTree = "<group>"; };
+		0FFEA80B18F1BB630044503C /* StoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryTableViewController.m; sourceTree = "<group>"; };
+		0FFEA80F18F1BBC70044503C /* PrivacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivacyViewController.h; sourceTree = "<group>"; };
+		0FFEA81018F1BBC70044503C /* PrivacyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivacyViewController.m; sourceTree = "<group>"; };
+		0FFEA81118F1BBC70044503C /* PrivacyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivacyViewController.xib; sourceTree = "<group>"; };
+		0FFEA81518F1BC310044503C /* copyrightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = copyrightView.h; sourceTree = "<group>"; };
+		0FFEA81618F1BC310044503C /* copyrightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = copyrightView.m; sourceTree = "<group>"; };
+		0FFEA81718F1BC310044503C /* copyrightView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = copyrightView.xib; sourceTree = "<group>"; };
 		7CD5CA5018EAB8750099058F /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Story.h; sourceTree = "<group>"; };
 		7CD5CA5118EAB8750099058F /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Story.m; sourceTree = "<group>"; };
 		7CD5CA5518EABEC30099058F /* crl_24bits.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = crl_24bits.bmp; sourceTree = "<group>"; };
@@ -78,8 +93,6 @@
 		7CF694E718E9531000AE9F18 /* StoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryCell.xib; sourceTree = "<group>"; };
 		7CF694E918E9535800AE9F18 /* StoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryCell.h; sourceTree = "<group>"; };
 		7CF694EA18E9535800AE9F18 /* StoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryCell.m; sourceTree = "<group>"; };
-		7CF694EC18E954B300AE9F18 /* StoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryTableViewController.h; sourceTree = "<group>"; };
-		7CF694ED18E954B300AE9F18 /* StoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryTableViewController.m; sourceTree = "<group>"; };
 		7CF694EF18E9570700AE9F18 /* app_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = app_config.h; sourceTree = "<group>"; };
 		7CF694F018E9570700AE9F18 /* app_config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = app_config.m; sourceTree = "<group>"; };
 		7CF694F218E9590000AE9F18 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
@@ -134,6 +147,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FFEA80618F1BB630044503C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0FFEA80F18F1BBC70044503C /* PrivacyViewController.h */,
+				0FFEA81018F1BBC70044503C /* PrivacyViewController.m */,
+				0FFEA81118F1BBC70044503C /* PrivacyViewController.xib */,
+				0FFEA80718F1BB630044503C /* AboutUsViewController.h */,
+				0FFEA80818F1BB630044503C /* AboutUsViewController.m */,
+				0FFEA80A18F1BB630044503C /* StoryTableViewController.h */,
+				0FFEA80B18F1BB630044503C /* StoryTableViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		0FFEA81418F1BC310044503C /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				0FFEA81518F1BC310044503C /* copyrightView.h */,
+				0FFEA81618F1BC310044503C /* copyrightView.m */,
+				0FFEA81718F1BC310044503C /* copyrightView.xib */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
 		7CD5CA5318EAB87E0099058F /* data model */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,11 +244,11 @@
 				7CF694CA18E951E400AE9F18 /* Images.xcassets */,
 				7CF694B918E951E400AE9F18 /* Supporting Files */,
 				7CD5CA5418EABEC30099058F /* image */,
+				0FFEA81418F1BC310044503C /* Control */,
+				0FFEA80618F1BB630044503C /* View Controller */,
 				7CF694E918E9535800AE9F18 /* StoryCell.h */,
 				7CF694EA18E9535800AE9F18 /* StoryCell.m */,
 				7CF694E718E9531000AE9F18 /* StoryCell.xib */,
-				7CF694EC18E954B300AE9F18 /* StoryTableViewController.h */,
-				7CF694ED18E954B300AE9F18 /* StoryTableViewController.m */,
 			);
 			path = BeGood;
 			sourceTree = "<group>";
@@ -324,8 +361,10 @@
 			files = (
 				7CF694CB18E951E400AE9F18 /* Images.xcassets in Resources */,
 				7CF694BD18E951E400AE9F18 /* InfoPlist.strings in Resources */,
+				0FFEA81318F1BBC70044503C /* PrivacyViewController.xib in Resources */,
 				7CD5CA5618EABEC30099058F /* crl_24bits.bmp in Resources */,
 				7CF694C618E951E400AE9F18 /* Main.storyboard in Resources */,
+				0FFEA81918F1BC310044503C /* copyrightView.xib in Resources */,
 				7CF694E818E9531000AE9F18 /* StoryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,9 +386,12 @@
 			files = (
 				7CF694C918E951E400AE9F18 /* ViewController.m in Sources */,
 				7CF694C318E951E400AE9F18 /* AppDelegate.m in Sources */,
+				0FFEA81818F1BC310044503C /* copyrightView.m in Sources */,
+				0FFEA80C18F1BB630044503C /* AboutUsViewController.m in Sources */,
 				7CF694BF18E951E400AE9F18 /* main.m in Sources */,
-				7CF694EE18E954B300AE9F18 /* StoryTableViewController.m in Sources */,
 				7CF694EB18E9535800AE9F18 /* StoryCell.m in Sources */,
+				0FFEA80E18F1BB630044503C /* StoryTableViewController.m in Sources */,
+				0FFEA81218F1BBC70044503C /* PrivacyViewController.m in Sources */,
 				7CD5CA5218EAB8750099058F /* Story.m in Sources */,
 				7CF694F118E9570700AE9F18 /* app_config.m in Sources */,
 			);
